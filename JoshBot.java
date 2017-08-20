@@ -36,7 +36,7 @@ public class JoshBot extends PircBot {
         sendMessage(channel,page.title);
         page.items.forEach((item) -> {
             sendMessage(channel,"    " + item.title);
-         });
+         });   
         
 	Weather weather = gson.fromJson(json2, Weather.class);
        
