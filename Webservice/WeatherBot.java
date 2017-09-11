@@ -17,7 +17,7 @@ public class WeatherBot extends PircBot {
     static final String name = "JashBot";
 
     // Default location
-    static final String defaultLocation = "36265";
+    static final String defaultLocation = "75287";
 
     // Regular expression to find a 5-digit number (i.e. find zip code)
     static final Pattern regex = Pattern.compile("(\\d{5})");
